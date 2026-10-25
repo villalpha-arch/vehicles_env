@@ -2,6 +2,8 @@ import pandas as pd
 import plotly.graph_objects as go  # Importación de plotly.graph_objects como go
 import streamlit as st
 
+st.header('Aplicación de anuncios de venta de coches en Streamlit')
+
 # Leer los datos del archivo CSV
 car_data = pd.read_csv('vehicles_us.csv')
 
